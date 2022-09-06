@@ -1,62 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
   <head>
-    <meta charset="utf-8">
-    <title>Simple HTML5 page </title>
-    </head>
+    <title>یه صفحه ساده HTML5</title>
+    <link rel="stylesheet" href="./assets/css/03-styles.css">
+
+  </head>
+
   <body>
-    
     <header>
-      <hgroup>
-        <h1> HTML5 AND CSS3 </h1>
-        <h2> A Simple HTML5 WITHOUT CSS</h2>
-      </hgroup>
-      <nav>
-        <ul>
-          <a href="">Home</a>
-            <a href="">Advance features</a>
-          <a href=""> About</a>
-          <a href=""> contact </a>
-          <a href=""> Sign in </a>
-          <a href=""> Sign up </a>
-          </ul>
-        </nav>
+      <h1 class="text-center mt-30">HTML5 و CSS3</h1>
+      <h2 class="text-center mt-40 font-medium">یه صفحه ساده HTML بدون CSS</h2>
+
+      <nav id="navbar">
+        <ul class="text-center p-0">
+          <li>
+            <a href="https://test.com">خانه</a>
+          </li>
+          <li>
+            <a href="http://test2.com"> ویژگی ها </a>
+          </li>
+          <li>
+            <a href="http://test3.com"> درباره ما </a>
+          </li>
+          <li>
+            <a href="http://test4.com"> ارتباط با ما </a>
+          </li>
+          <li>
+            <a href="http://test5.com"> ورود </a>
+          </li>
+          <li>
+            <a href="http://test6.com"> ثبت نام </a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    
-    <section>
-      <h2>A Simple HTML5 Page</h2>
-      <p>
-        This is an example of a simple HTML5 webpage using some of it's basic elements.
+
+    <main class="border border-radius bg-grey p-30 pr-60 mt-50">
+      <section class="mb-40">
+        <h2>یه صفحه ساده HTML5</h2>
+        <p>
+          این ها مثال های ساده ای برای نمایش محتوا بدون CSS و زیبا سازی هستند.
         </p>
       </section>
-    
-    <section>
-      <h2> CSS3 for Styling</h2>
-      <p>
-        To make this webpage visually appealing we'll use some of the basic CSS3 code in another example. CSS Makes styling of the page more easy and convinient.
+
+      <section class="mb-40">
+        <h2>CSS3 برای استایل دهی</h2>
+        <p>
+          برای زیباسازی صفحات وب از CSS استفاده میکنن چرا که به راحتی میتونن با
+          اون صفحات وب جذابی رو ایجاد کنن.
         </p>
       </section>
-    
-    <section>
-      <h2> Progress bar </h2>
-       <p>
-        Progress you'll make<br>
-        When you undertand HTML5 code<progress max="100" value=50></progress><br>
-        When you understand CSS3 Code <progress max="100" value=50></progress><br>
-        When you understand HTML5+CSS3 Code<progress max=100 value=100></progress>
-      </p>
-    </section>
-  
-  <section>
-    <mark> For more understandibility how css works this page doesn't inlude any CSS3 code.</mark>
-  </section>
-    
-    
+
+      <section class="text-center" id="progress-details">
+        <h2 class="mt-100">نوار پیشرفت</h2>
+        <p>
+          <span class="mb-20">
+          پیشرفت شما وقتی
+        </span>
+
+        <span>
+          کد های HTML رو درک کنی
+        </span>
+
+          <span>
+          <progress max="100" value="50"></progress>
+        </span>
+        <span>
+          کد های CSS رو درک کنی 
+        </span>
+        <span>
+          <progress max="100" value="50"></progress>
+        </span>
+        <span>
+          کد های HTML و CSS رو درک کنی
+        </span>
+          <progress max="100" value="100"></progress>
+        </p>
+      </section>
+
+      <section id="mark" class="text-center">
+        <span> برای فهم بیشتر این صفحه هیچ استایل CSSای نداره! </span>
+      </section>
+    </main>
+
     <footer>
-      <p>
-        This is the modified example of the code taught by Colleen van Lent in her Introduction to CSS3 course on coursera.</p>
-      </footer
-    </body>
-  </html>
-      
-      
+      <p>این بخش هم باید در انتهای وبسایت نمایش داده بشه!</p>
+    </footer>
+  </body>
+</html>
