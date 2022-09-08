@@ -1,0 +1,70 @@
+.navbar a i{
+    margin-left: unset;
+    margin-right: 5px;
+}
+.bi-chevron-right::before {
+    transform: rotate(180deg);
+}
+
+.hero-section .iphone-wrap .phone-1{
+    left: unset;
+    right: 0;
+}
+.hero-section .iphone-wrap .phone-2{
+    margin-left: unset;
+    margin-right: 100px;
+}
+
+img[src="assets/img/undraw_svg_1.svg"]{
+    transform: scaleX(-1);
+}
+
+.me-auto {
+    margin-right: unset !important;
+    margin-left: auto !important;
+}
+.ms-auto {
+    margin-left: unset !important;
+    margin-right: auto !important;
+}
+img[src="assets/img/undraw_svg_2.svg"]{
+    transform: scaleX(-1);
+}
+img[src="assets/img/undraw_svg_3.svg"]{
+    transform: scaleX(-1);
+}
+
+.section-heading {
+    background: linear-gradient(-45deg,  #274685, #3db3c5);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.cta-section .btn i{
+    margin-right: unset !important;
+    margin-left: 5px !important
+}
+.list-unstyled{
+    padding-left: unset;
+    padding-right: 0;
+}
+.back-to-top{
+    right : unset;
+    left: 15px;
+}
+
+@media (min-width: 768px){
+    .text-md-start {
+        text-align: right !important;
+    }
+
+    .text-md-end {
+        text-align: left !important;
+    }
+}
+/* MIN WIDTH 992px */
+@media (min-width: 992px){
+    .text-lg-start {
+        text-align: right !important;
+    }  
+}
