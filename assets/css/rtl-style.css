@@ -1,3 +1,21 @@
+@import '../vazirmatn/Vazirmatn-font-face.css';
+/* FONT SETS */
+body:not(.bi){
+    font-family: Vazirmatn;
+}
+#header .logo h1 a{
+    font-family: Vazirmatn;
+}
+#navbar{
+    font-family: Vazirmatn;
+}
+#hero > div.container > div{
+    font-family: Vazirmatn;
+}
+h1, h2, h3, h4, h5, h6, .font-heading{
+    font-family: Vazirmatn;
+}
+/* ######### */
 .navbar a i{
     margin-left: unset;
     margin-right: 5px;
@@ -67,4 +85,18 @@ img[src="assets/img/undraw_svg_3.svg"]{
     .text-lg-start {
         text-align: right !important;
     }  
+}
+
+@media(max-width:768px){
+    .hero-section .iphone-wrap .phone-2{
+        margin-left: 100px;
+        margin-right: unset;
+    }
+    .hero-section .iphone-wrap .phone-1{
+        left: 0;
+        right: unset;
+    }
+    .hero-section .iphone-wrap .phone-1{
+        margin-left: -290px !important;
+    }
 }
